@@ -22,7 +22,6 @@ const EditPost = () => {
       }
     });
   }, [id]);
-
   const handleUpdate = async (e) => {
     e.preventDefault();
 
